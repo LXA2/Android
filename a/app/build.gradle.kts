@@ -63,4 +63,7 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    implementation ("com.google.android.gms:play-services-base:17.5.0")
+    implementation ("com.google.android.gms:play-services-oss-licenses:17.0.0")
+    implementation ("androidx.localbroadcastmanager:localbroadcastmanager:1.1.0")
 }

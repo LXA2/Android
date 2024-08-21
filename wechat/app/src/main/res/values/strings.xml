@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">微信</string>
+
+
+<string name="phoneload">手机号登陆</string>
+<string name="dress">国家/地区&#160;&#160;&#160;中国大陆</string>
+<string name="kuohao"> > </string>
+<string name="phone86">+86&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+<string name="phonetext">请填写手机号码&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+<string name="text">用微信号/QQ号/邮箱登陆</string>
+<string name="load_text">CYD</string>
+<string name="text1">找回密码&#160;|</string>
+<string name="text2">更多选项</string>
+<string name="phone">手机号&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+86&#160;&#160;</string>
+<string name="password">密码&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+<string name="passwordtext">请填写密码&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</string>
+<string name="load_text2">CYD</string>
+<string name="text22">CYD</string>
+    <string name="search">CYD</string>
+<string name="find_psd">CYD</string>
+<string name="qianwangweixin">CYD</string>
+<string name="quxiao">CYD</string>
+<string name="weixin">CYD</string>
+<string name="chats">CYD</string>
+<string name="contacts">CYD</string>
+<string name="discovery">CYD</string>
+<string name="profile">CYD</string>
+<string name="pay">CYD</string>
+<string name="shezhi">CYD</string>
+<string name="xinpengyou">CYD</string>
+<string name="shoucang">CYD</string>
+<string name="xiangce">CYD</string>
+<string name="kabao">CYD</string>
+<string name="biaoqing">CYD</string>
+<string name="pengyouquan">CYD</string>
+<string name="saoyisao">CYD</string>
+<string name="xiaochengxu">CYD</string>
+<string name="qunliao">CYD</string>
+<string name="biaoqian">CYD</string>
+<string name="gongzhonghao">CYD</string>
+<string name="A">CYD</string>
+<string name="haonanren">CYD</string>
+<string name="asans">CYD</string>
+<string name="B">CYD</string>
+<string name="buliangshaonian">CYD</string>
+<string name="info">CYD</string>
+<string name="nicheng">CYD</string>
+<string name="update">CYD</string>
+<string name="jilu">CYD</string>
+<string name="returns">CYD</string>
+</resources>

@@ -25,6 +25,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish(); // 可选：如果不希望返回到MainActivity，可以调用finish()方法
             }
-        }, 5000); // 延迟时间为3000毫秒（3秒）
+        }, 3000); // 延迟时间为3000毫秒（3秒）
     }
 }

@@ -14,9 +14,9 @@ import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
+import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 import androidx.annotation.NonNull;
-
 
 public class MainActivity extends AppCompatActivity {
 
@@ -27,14 +27,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         EdgeToEdge.enable(this);
+
+        if (!areNotificationsEnabled()) {
+            requestNotificationPermission();
+        } else {
+            startHandler();
+        }
+    }
+
+    private boolean areNotificationsEnabled() {
+        NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(this);
+        return notificationManagerCompat.areNotificationsEnabled();
+    }
+
+    private void requestNotificationPermission() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
                 ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.POST_NOTIFICATIONS}, REQUEST_CODE);
             } else {
-                startHandler();
+                showPermissionDeniedDialog();
             }
         } else {
-            startHandler();
+            showPermissionDeniedDialog();
         }
     }
 
@@ -77,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent);
                     }
                 })
+                .setNegativeButton("取消", null)
                 .show();
     }
 }
